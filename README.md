@@ -1,4 +1,3 @@
-init
 # Flask Docker image
 
 Flask Docker image powered by Python 3.5.1, with nginx and gunicorn. It is
