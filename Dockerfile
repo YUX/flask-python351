@@ -4,7 +4,9 @@ MAINTAINER YUX <yu.xiao.fr@gmail.com>
 
 RUN apt-get update
 RUN apt-get -y upgrade
+RUN apt-get install -y build-essential
 RUN pip install --upgrade pip
+RUN pip install --upgrade wheel
 RUN apt-get -y install nginx supervisor
 RUN pip install --no-cache-dir gunicorn Flask
 
